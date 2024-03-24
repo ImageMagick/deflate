@@ -1,0 +1,12 @@
+[STATIC]
+
+[LICENSE]
+COPYING
+
+[DIRECTORIES]
+lib
+lib\arm
+lib\x86
+
+[INCLUDES]
+lib
