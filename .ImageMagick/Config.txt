@@ -1,12 +1,24 @@
-[STATIC]
+[STATIC_LIBRARY]
 
 [LICENSE]
 COPYING
 
-[DIRECTORIES]
-lib
-lib\arm
-lib\x86
-
 [INCLUDES]
 lib
+
+[INCLUDE_ARTIFACTS]
+libdeflate.h -> .
+
+[EXCLUDES]
+lib\riscv
+programs\
+scripts\
+
+[EXCLUDES_ARM64]
+lib\x86
+
+[EXCLUDES_X64]
+lib\arm
+
+[EXCLUDES_X86]
+lib\arm
