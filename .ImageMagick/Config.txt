@@ -1,5 +1,23 @@
 [STATIC_LIBRARY]
 
+[VERSION]
+1.24.0
+
+[RELEASE_DATE]
+2025-05-11
+
+[PRODUCT_NAME]
+libdeflate
+
+[COMPANY_NAME]
+Eric Biggers
+
+[URL]
+https://github.com/ebiggers/libdeflate
+
+[COPYRIGHT]
+Copyright 2016 Eric Biggers
+
 [LICENSE_FILE]
 COPYING
 
